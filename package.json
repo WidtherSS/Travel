@@ -1,5 +1,5 @@
 {
-  "homepage": "https://WidtherSS.github.io/react-travel",
+  "homepage": "http://widtherss.github.io/travel",
   "name": "travel-react-tailwind",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-   "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -41,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
